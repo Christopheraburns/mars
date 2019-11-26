@@ -1,0 +1,170 @@
+<sdf version="1.5">
+  <world name="default">
+    <scene>
+        <background>202 150 66</background>
+    </scene>
+
+    <!-- Martian Gravity-->
+    <gravity>0 0 -3.711</gravity>
+
+    <light type="directional" name="directional_light_1">
+      <pose>0 20 20 0.1 0.1 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <attenuation>
+        <range>300</range>
+      </attenuation>
+      <direction>0.1 0.1 -1</direction>
+      <cast_shadows>false</cast_shadows>
+    </light>
+
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <include>
+      <uri>model://mars_surface</uri>
+      <name>mars_surface</name>
+      <pose>-136.5 127 14.21 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://rockformation</uri>
+      <name>rockformation</name>
+      <pose>1 -9 -0.65 0 0 1.75</pose>
+    </include>
+
+    <include>
+      <uri>model://rockformation</uri>
+      <name>rockformation2</name>
+      <pose>-1 4 -0.5 3.141593 -0.008 1.7915</pose>
+    </include>
+
+    <include>
+      <uri>model://rockformation</uri>
+      <name>rockformation3</name>
+      <pose>10.401 4.11 -0.65 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://rockformation</uri>
+      <name>rockformation4</name>
+      <pose>-3.77 -9.72 -0.75 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://rockformation</uri>
+      <name>rockformation5</name>
+      <pose>-29.2 -2.79 -0.6 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://rockformation</uri>
+      <name>rockformation5</name>
+      <pose>-15.49 14 -0.6 0 0 1.35</pose>
+    </include>
+
+    <!-- MOVE
+    <include>
+      <uri>model://rockformation</uri>
+      <name>rockformation6</name>
+      <pose>-25.21 -2.7 -0.6 0 -0.5 0</pose>
+    </include> -->
+
+    <include>
+      <uri>model://rockformation</uri>
+      <name>rockformation7</name>
+      <pose>-17.39 2.28 -0.9 0 0 -0.2</pose>
+    </include>
+
+    <include>
+      <uri>model://jaggedrock</uri>
+      <name>jaggedrock</name>
+      <pose>5 7 -0.75 0 0 -0.7</pose>
+    </include>
+
+    <include>
+      <uri>model://jaggedrock</uri>
+      <name>jaggedrock2</name>
+      <pose>-9 3 -1 -0.2499 0 -2.399</pose>
+    </include>
+
+    <include>
+      <uri>model://jaggedrock</uri>
+      <name>jaggedrock3</name>
+      <pose>-37.515 -13 -.85 0 0 1.1</pose>
+    </include>
+
+    <include>
+      <uri>model://terrain</uri>
+      <name>terrain</name>
+      <pose>2 1 -1 0 0 -1.575</pose>
+    </include>
+
+    <include>
+      <uri>model://terrain</uri>
+      <name>terrain1</name>
+      <pose>-22.869 -12.08 -1</pose>
+    </include>
+
+    <include>
+      <uri>model://terrain</uri>
+      <name>terrain2</name>
+      <pose>-23 13.09 -1 0 0 1.4</pose>
+    </include>
+
+    <include>
+      <uri>model://terrain</uri>
+      <name>terrain3</name>
+      <pose>-50.365 17.4 -1.25 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://terrain</uri>
+      <name>terrain4</name>
+      <pose>-53.688 -11.365 -1.12 0 0 -1.599</pose>
+    </include>
+
+    <include>
+      <uri>model://rock9</uri>
+      <name>rock9</name>
+      <pose>-4.844 19.6 0 1.05 .6 0</pose>
+    </include>
+
+    <include>
+      <uri>model://rock9</uri>
+      <name>rock9_1</name>
+      <pose>1.849 23.56 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://rock9</uri>
+      <name>rock9_2</name>
+      <pose>-39.766 -19.65 -0.4 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://rock9</uri>
+      <name>rock9_3</name>
+      <pose>-38.024 1.469 -2 0 0 -0.95</pose>
+    </include>
+
+    <include>
+      <uri>model://rock9</uri>
+      <name>rock9_4</name>
+      <pose>-8.1 -8.18 -2.85 0 0 .85</pose>
+    </include>
+
+    <include>
+      <uri>model://crater</uri>
+      <name>crater</name>
+      <pose>-57.502 2.5 -1.75 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://crater</uri>
+      <name>crater1</name>
+      <pose>6.49 -16.2 -2.65 0 0 1.55</pose>
+    </include>
+  </world>
+</sdf>
