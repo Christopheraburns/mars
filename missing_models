@@ -1,0 +1,28 @@
+
+
+
+    <include>
+      <uri>model://terrain</uri>
+      <name>terrain3</name>
+      <pose>-50.365 17.4 -1.25 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://terrain</uri>
+      <name>terrain4</name>
+      <pose>-53.688 -11.365 -1.12 0 0 -1.599</pose>
+    </include>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
