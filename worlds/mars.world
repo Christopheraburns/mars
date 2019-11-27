@@ -23,7 +23,7 @@
     </include>
 
     <include>
-      <uri>model://mars_surface</uri>
+      <uri>model://curiosity_path</uri>
       <name>mars_surface</name>
       <pose>-136.5 127 14.21 0 0 0</pose>
     </include>

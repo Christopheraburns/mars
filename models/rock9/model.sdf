@@ -18,7 +18,7 @@
 
          <self_collide>1</self_collide>
          <kinematic>0</kinematic>
-         <gravity>0</gravity>
+         <gravity>1</gravity>
 
           <collision name="collision">
             <geometry>

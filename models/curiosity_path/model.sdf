@@ -17,11 +17,11 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://curiosity_path/meshes/curiosity_path.stl</uri>
+              <uri>model://curiosity_path/meshes/curiosity_path25k.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
-          <surface>
+         <!-- <surface>
             <friction>
               <ode>
                 <mu>30.0</mu>
@@ -36,12 +36,12 @@
                 <min_depth>0.002</min_depth>
               </ode>
             </contact>
-          </surface>
+          </surface>-->
         </collision>
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://curiosity_path/meshes/mars_path_simple1.dae</uri>
+              <uri>model://curiosity_path/meshes/curiosity_path_texture.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -54,13 +54,13 @@
           </material>
           -->
         </visual>
-        <velocity_decay>
+        <!--<velocity_decay>
           <linear>0.000000</linear>
           <angular>0.000000</angular>
         </velocity_decay>
         <self_collide>0</self_collide>
         <kinematic>0</kinematic>
-        <gravity>1</gravity>        
+        <gravity>1</gravity>-->
       </link>   
   </model>
 </sdf>
