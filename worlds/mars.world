@@ -6,7 +6,7 @@
     </scene>
 
     <physics type="ode">
-        <max_step_size>0.0125</max_step_size>
+        <max_step_size>0.0185</max_step_size>
         <gravity>0 0 -3.711</gravity>     <!-- Martian Gravity -->
     </physics>
 
@@ -81,12 +81,6 @@
       <pose>-29.2 -2.79 -0.6 0 0 0</pose>
     </include>
 
-    <!--<include>
-      <uri>model://rockformation</uri>
-      <name>rockformation6</name>
-      <pose>-15.49 14 -0.6 0 0 1.35</pose>
-    </include>-->
-
     <include>
       <uri>model://rockformation</uri>
       <name>rockformation7</name>
@@ -147,13 +141,6 @@
       <name>crater</name>
       <pose>-48.502 1.5 -2.1 0 0 0</pose>
     </include>
-
-
-  <!--<include>
-      <uri>model://crater</uri>
-      <name>crater1</name>
-      <pose>6.49 -16.2 -2.65 0 0 1.55</pose>
-    </include>-->
-
+    
   </world>
 </sdf>
